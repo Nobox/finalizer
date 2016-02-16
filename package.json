@@ -1,0 +1,37 @@
+{
+  "name": "finalizer",
+  "version": "0.0.1",
+  "description": "Prepare and download npm builds without stressing your site.",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.3"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nobox/finalizer.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "contributors": [
+    {
+      "name": "Alberto Estrada",
+      "email": "albertoe@gmail.com"
+    },
+    {
+      "name": "Jonathan Torres",
+      "email": "jonathantorres41@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nobox/finalizer/issues"
+  },
+  "homepage": "https://github.com/Nobox/finalizer"
+}
