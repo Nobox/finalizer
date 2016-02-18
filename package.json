@@ -14,6 +14,9 @@
   "scripts": {
     "test": "node_modules/mocha/bin/mocha tests"
   },
+  "bin": {
+    "finalizer": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nobox/finalizer.git"
