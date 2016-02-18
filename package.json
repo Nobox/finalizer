@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Prepare and download npm builds without stressing your site.",
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "request": "^2.69.0"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
