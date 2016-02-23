@@ -4,7 +4,7 @@ var client = require('./lib/client');
 
 finalizer
     .command('create <name>')
-    .description('Create a new project')
+    .description('Create a new project.')
     .action(function(name) {
         console.log('Creating project "' + name + '"');
         client.create(name, function(body) {
@@ -20,10 +20,13 @@ finalizer
     });
 
 finalizer
-    .command('download')
+    .command('download <name>')
     .description('Download the latest project build.')
-    .action(function() {
-        console.log('Trying to download the latest build...');
+    .action(function(name) {
+        console.log('Trying to download the latest build for "' + name + '"');
+        client.download(name, function(message) {
+            console.log(message);
+        });
     });
 
 finalizer.version('0.0.1');
