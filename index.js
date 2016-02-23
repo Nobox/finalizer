@@ -6,8 +6,12 @@ finalizer
     .command('create <name>')
     .description('Create a new project.')
     .action(function(name) {
-        console.log('Creating project "' + name + '"');
-        client.create(name, function(body) {
+        console.log('Attempting to create project "' + name + '"');
+        client.create(name, function(err, body) {
+            if (err) {
+                console.log(err);
+                return;
+            }
             console.log(body);
         });
     });

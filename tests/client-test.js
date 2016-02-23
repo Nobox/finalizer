@@ -25,7 +25,7 @@ describe('Finalizer client', function() {
         sinon.stub(request, 'post')
             .yields(null, { statusCode: 200 }, 'Project "my-project" created');
 
-        client.create('my-project', function(body) {
+        client.create('my-project', function(err, body) {
             expect(request.post.called).to.be.ok();
             expect(request.post.callCount).to.be(1);
             expect(body).to.be('Project "my-project" created');
