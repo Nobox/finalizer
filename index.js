@@ -28,8 +28,12 @@ finalizer
     .description('Download the latest project build.')
     .action(function(name) {
         console.log('Trying to download the latest build for "' + name + '"');
-        client.download(name, function(message) {
-            console.log(message);
+        client.download(name, function(err, msg) {
+            if (err) {
+                console.log(err);
+                return;
+            }
+            console.log(msg);
         });
     });
 
