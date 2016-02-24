@@ -17,10 +17,17 @@ finalizer
     });
 
 finalizer
-    .command('build')
+    .command('build <name>')
     .description('Run a new project build.')
-    .action(function() {
-        console.log('This is the build command');
+    .action(function(name) {
+        console.log('Attempting to create a new build for "' + name + '"');
+        client.build(name, function(err, msg) {
+            if (err) {
+                console.log(err);
+                return;
+            }
+            console.log(msg);
+        });
     });
 
 finalizer
