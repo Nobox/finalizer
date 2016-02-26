@@ -1,6 +1,6 @@
 {
   "name": "finalizer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Prepare and download npm builds without stressing your site.",
   "dependencies": {
     "commander": "^2.9.0",

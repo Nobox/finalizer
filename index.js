@@ -44,5 +44,5 @@ finalizer
         });
     });
 
-finalizer.version('0.0.1');
+finalizer.version('0.1.0');
 finalizer.parse(process.argv);
