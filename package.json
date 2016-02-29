@@ -1,7 +1,7 @@
 {
   "name": "finalizer",
   "version": "0.1.0",
-  "description": "Prepare and download npm builds without stressing your site.",
+  "description": "CLI client for Finalizer Server. Prepares and downloads npm builds without stressing your site.",
   "dependencies": {
     "commander": "^2.9.0",
     "request": "^2.69.0",
