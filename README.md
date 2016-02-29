@@ -1,4 +1,6 @@
 # Finalizer
+[![Build Status](https://travis-ci.org/Nobox/finalizer.svg?branch=dev)](https://travis-ci.org/Nobox/finalizer)
+
 CLI client for Finalizer Server. Prepares and downloads npm builds without stressing your site. **This project is still under development. Things will break.**
 
 ## Installation
