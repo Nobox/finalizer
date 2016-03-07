@@ -9,6 +9,14 @@ After setting up your npm build server with Finalizer Server. Install this CLI c
 npm install -g finalizer
 ```
 
+## Configuration
+Make sure that you have a `finalizer.json` file on the root of your project (the same location as the `package.json`) that specifies the url on which the build server can be accessed.
+```json
+{
+  "baseUrl": "http://finalizer.myurl.com"
+}
+```
+
 ## Creating a project
 This command will create (or link) the current project to the build server. This should be done only once. Once the project is created it will trigger the first build on the server.
 - `<name>` Project name. The name used here will be stored on the server for later access.
