@@ -57,5 +57,18 @@ finalizer
         });
     });
 
+finalizer
+    .command('check')
+    .description('Check if connection to the build server is successful.')
+    .action(function() {
+        client.check(function(err, msg) {
+            if (err) {
+                console.log(err);
+                return;
+            }
+            console.log(msg);
+        });
+    });
+
 finalizer.version('0.1.1');
 finalizer.parse(process.argv);
