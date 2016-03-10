@@ -44,5 +44,18 @@ finalizer
         });
     });
 
+finalizer
+    .command('init')
+    .description('Generate a basic finalizer.json file.')
+    .action(function() {
+        client.init(function(err, msg) {
+            if (err) {
+                console.log(err);
+                return;
+            }
+            console.log(msg);
+        });
+    });
+
 finalizer.version('0.1.1');
 finalizer.parse(process.argv);
