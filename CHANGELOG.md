@@ -1,5 +1,8 @@
 # Changelog
 
+### `0.1.2` - 2016-03-16
+- Download of builds are now including dependencies.
+
 ### `0.1.1` - 2016-03-02
 - Download of builds is now done progressively.
 
