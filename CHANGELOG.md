@@ -1,5 +1,8 @@
 # Changelog
 
+### `0.1.3` - 2016-03-18
+- Download: Extract won't happen unless dependencies are downloaded.
+
 ### `0.1.2` - 2016-03-16
 - Download of builds are now including dependencies.
 
