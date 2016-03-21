@@ -42,6 +42,18 @@ finalizer build <name>
 ```
 If the `package.json` has not changed since the last build, the build will not be created. This will prevent the creation of innecesary builds on the server.
 
+## Initialize project
+This command will create a basic `finalizer.json` file with default settings on the project directory.
+```bash
+finalizer init
+```
+
+## Check connection to build server
+This will make a basic http request to the build server to make sure that a connection to it is correctly established.
+```bash
+finalizer check
+```
+
 ## Development
 After cloning your repo
 ```bash
