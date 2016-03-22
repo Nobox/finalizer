@@ -1,5 +1,9 @@
 # Changelog
 
+### `0.1.4` - 2016-03-22
+- Check: Parse body response when available.
+- Download: Fixed memory issue when the download of dependencies finishes.
+
 ### `0.1.3` - 2016-03-18
 - Download: Extract won't happen unless dependencies are downloaded.
 
