@@ -1,5 +1,5 @@
 # Finalizer
-[![Build Status](https://travis-ci.org/Nobox/finalizer.svg?branch=master)](https://travis-ci.org/Nobox/finalizer)
+[![Build Status](https://travis-ci.org/cyberkiko/finalizer.svg?branch=master)](https://travis-ci.org/cyberkiko/finalizer)
 
 CLI client for Finalizer Server. Prepares and downloads npm builds without stressing your site. **This project is still under development. Things will break.**
 

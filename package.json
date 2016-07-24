@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nobox/finalizer.git"
+    "url": "git+https://github.com/cyberkiko/finalizer.git"
   },
   "keywords": [
     "npm"
@@ -37,7 +37,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Nobox/finalizer/issues"
+    "url": "https://github.com/cyberkiko/finalizer/issues"
   },
-  "homepage": "https://github.com/Nobox/finalizer"
+  "homepage": "https://github.com/cyberkiko/finalizer"
 }
