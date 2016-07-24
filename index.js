@@ -70,5 +70,5 @@ finalizer
         });
     });
 
-finalizer.version('0.2.4');
+finalizer.version('0.2.5');
 finalizer.parse(process.argv);
